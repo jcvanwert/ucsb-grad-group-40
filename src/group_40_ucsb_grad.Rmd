@@ -1,0 +1,18 @@
+---
+title: "Group 40 UCSB domestic grad enrollment"
+author: "Jacey Van Wert, Roshni Katrak-Adefowora"
+date: "11/23/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(here)
+```
+
+# Upload data
+```{r}
+ucsb_grad <- read.csv(here("data", "ucsb_grad_data.csv"))
+```
+
